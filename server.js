@@ -5,7 +5,7 @@ app.use(express.json());
 
 app.post('/lint', (req, res) => {
     const greeting = "hello"
-    res.send(greeting)
+    res.send()
 })
 
 
