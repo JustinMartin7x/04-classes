@@ -10,7 +10,7 @@ class Stack {
         return this.#stack.pop()
     }
     peek() {
-        this.#stack.peek()
+        return this.#stack[this.#stack.length - 1]
     }
 }
 module.exports = {
